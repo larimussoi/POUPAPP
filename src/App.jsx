@@ -1,12 +1,16 @@
-import logo from "./assets/logo.svg";
+import { Aside } from "./components/Aside";
+import { Container } from "./components/Container";
+import { SearchInput } from "./components/SearchInput";
+import { Main } from "./components/Main";
 
 function App() {
   return (
-    <>
-      <aside>
-        <img src={logo} alt="Logo" />
-      </aside>
-    </>
+    <Container>
+      <Aside />
+      <Main>
+        <SearchInput />
+      </Main>
+    </Container>
   );
 }
 
