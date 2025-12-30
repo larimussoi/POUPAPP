@@ -1,0 +1,23 @@
+:root {
+  --neutral-darker: #1c1d21;
+  --neutral-background: #212229;
+  --neutral-surface: #2a2c34;
+  --neutral-header: #33353f;
+  --neutral-text: #f5f5f5;
+
+  --primary-highlight: #7693ff;
+
+  --secondary-income: #3ae8cb;
+  --secondary-expense: #ffad15;
+}
+
+* {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--neutral-background);
+}
